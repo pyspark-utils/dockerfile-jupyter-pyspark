@@ -4,6 +4,11 @@ Based on image python:3.7.
 
 A configured Jupyter notebook with a Pyspark Kernel, Livy and SparkMagic.
 
+---
+Docker hub: <https://hub.docker.com/r/pysparkutils/jupyter-pyspark>
+
+Run `docker pull pysparkutils/jupyter-pyspark` to pull the image from docker hub.
+
 ## Configurations
 
 - Jupyter Notebook Configuration:
