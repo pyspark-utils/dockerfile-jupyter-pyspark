@@ -47,3 +47,9 @@ Previous usage will execute: `sh bin/jupyter-start.sh` which contains:
 ```bash
 nohup livy-server start & jupyter notebook 
 ```
+
+Build image from Dockerfile:
+
+```bash
+docker build -t jupyter-pyspark . && docker run -it -p 8888:8888 --name pyspark-jupyter-notebook jupyter-pyspark
+```
